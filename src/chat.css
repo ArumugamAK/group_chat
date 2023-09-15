@@ -1,0 +1,26 @@
+
+.Sidechat{
+    display: flex;
+    padding: 20px;
+    cursor:pointer;
+    /* flex-direction: spa; */
+    /* justify-content: space-between; */
+    border-bottom: 1px solid whitesmoke;
+    /* border: 10px solid black; */
+    align-items: center;
+}
+.Sidechat-info{
+    margin-left: 15px;
+}
+.Sidechat-info > h1{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.Sidechat:hover{
+    background-color: #b8b0b0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
